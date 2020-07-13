@@ -22,6 +22,11 @@
  padding-left: 0;
 }
 
+body {
+  background-image: url('/assets/ocean.jpg');
+  background-repeat: repeat;
+}
+
 
 @import "{{ site.theme }}";
 
