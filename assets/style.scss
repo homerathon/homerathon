@@ -6,14 +6,25 @@
     src: url('/assets/Quando-Regular.ttf');
 }
 
-.pagelink{
- padding-top: 1.9vw;
+.top{
+    padding-top: 1.9vw;
     text-align: left;
     color: #D1D1BE;
     font-family: quando;
-    font-size: 2.5vw;
     display: inline-block;
 }
+
+.top-link{
+    font-size: 2.5vw;
+}
+
+.top-header{
+    padding-left: 12vw;
+    padding-right: 12vw;
+    font-size: 5vw;
+}
+
+
 
 .block_1 {
   background: url('/assets/ocean.jpg') repeat 0, 0;
