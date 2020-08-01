@@ -183,9 +183,11 @@ iframe {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  /* background-color: #222; */
   padding: 2px 16px;
-  color: white;
+  color: #D1D1BE;
+  font-family: mont;
+  font-size: 1.6v
 }
 
 .row:after {
