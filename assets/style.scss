@@ -59,13 +59,6 @@
  padding-left: 0;
 }
 
-body {
-  background-image: url('/assets/20ocean.jpg');
-  background-repeat: repeat;
-  background-size:cover;
-  background-blend-mode: multiply;
-}
-
 
 @import "{{ site.theme }}";
 
@@ -79,7 +72,7 @@ body {
   min-height: 5.5vh;
   max-height: 5.5vh;
   padding: 0px;
-  background-color: #585858;
+  rgb(79,16,20)
   color: #e8e8e8;
   font-size: 1.1vw;
   border: none;
@@ -117,7 +110,7 @@ body {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: rgb(57,98,117)}
 
 iframe {
     position: absolute;
