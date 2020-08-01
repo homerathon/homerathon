@@ -63,7 +63,7 @@
 @import "{{ site.theme }}";
 
 .dropbtn {
-  margin-right: .5vw;
+  margin-left: .3vw;
   margin-top: .5vh;
   border-radius: .5vh;
   display: inline-block;
@@ -73,7 +73,7 @@
   max-height: 5.5vh;
   padding: 0px;
   background-color: rgb(79,16,20);
-  color: #e8e8e8;
+  color: #D1D1BE;
   font-size: .9vw;
   font-family: quando;
   border: none;
