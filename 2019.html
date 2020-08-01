@@ -3,7 +3,7 @@
 <body style="background-image: url('/assets/ocean.jpg'); background-repeat: repeat;">
  <link rel="stylesheet" type="text/css" href="assets/style.css">
  
- <div style="position: absolute; min-width: 100%; min-height: 17%; max-width: 100%; max-height: 17%; background-color: rgba(79,16,20,.5);">
+ <div style="position: absolute; min-width: 100%; min-height: 15%; max-width: 100%; max-height: 15%; background-color: rgba(79,16,20,.5);">
  <b class = "top top-header">HOMERATHON</b>
  <a href="/" class = "top top-link">home | </a>
  <a href="/2018" class = "top top-link"> 2018 | </a>
@@ -11,7 +11,7 @@
  </div>
   
   
-<div style="position: absolute; background-color: rgba(209,209, 191,.5); min-width: 80%; min-height: 160%; max-width: 80%; max-height: 160%; top: 97%; left: 40%; transform: translate(-50%, -50%);">
+<div style="position: absolute; background-color: rgba(209,209, 191,.5); min-width: 80%; min-height: 75%; max-width: 80%; max-height: 75%; top: 52.5%; left: 40%; transform: translate(-50%, -50%);">
 <div style="padding-left: 12%; padding-top: 5%; padding-right: 12%;">
  <b style="font-size: 1.7vw; font-family: mont;">
   This is where text about the 2019 Homerathon will go. There is a gallery of images from the 2019 Homerathon below.
@@ -19,6 +19,8 @@
   This is where text about the 2019 Homerathon will go. There is a gallery of images from the 2019 Homerathon below.
   This is where text about the 2019 Homerathon will go. There is a gallery of images from the 2019 Homerathon below.
   This is where text about the 2019 Homerathon will go. There is a gallery of images from the 2019 Homerathon below.
+  This is where text about the 2019 Homerathon will go. There is a gallery of images from the 2019 Homerathon below.
+
  </b>
 </div>
  </div>
@@ -28,41 +30,50 @@
  <div style="padding-left: 7%; padding-top: 5%; padding-right: 7%;">
  <b style="font-size: 2vw; font-family: mont-bold;">News items, Sponsors, or links back to UNL/ department/ UCARE ect</b>
  </div></div>
-
+ 
+ 
+ <div style="position: absolute; background-color: rgba(79,16,20,.5); min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; top: 90%; left: 0%;"></div>
+ 
  <!-- The following is the gallery code -->
  
  <!-- Container for the image gallery -->
-<div class="container">
+<div class="container" style="position: absolute;
+    min-width: 76%;
+    min-height: 76%;
+    max-width: 76;
+    max-height: 76%;
+    top: 95%;
+    left: 12%;">
 
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
-      <img src="img_woods_wide.jpg" style="width:100%">
+      <img src="assets/2019-1.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 6</div>
-      <img src="img_5terre_wide.jpg" style="width:100%">
+      <img src="assets/2018-2.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 6</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
+      <img src="assets/2018-1.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">4 / 6</div>
-      <img src="img_lights_wide.jpg" style="width:100%">
+      <img src="assets/2019-2.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">5 / 6</div>
-      <img src="img_nature_wide.jpg" style="width:100%">
+      <img src="assets/2018-1.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">6 / 6</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
+      <img src="assets/2018-2.png" style="width:100%">
   </div>
 
   <!-- Next and previous buttons -->
@@ -77,22 +88,22 @@
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="assets/2019-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      <img class="demo cursor" src="assets/2019-1.png" style="width:100%" onclick="currentSlide(1)" alt="This is where captions for the images will go">
     </div>
     <div class="column"> 
-      <img class="demo cursor" src="assets/2019-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      <img class="demo cursor" src="assets/2018-2.png" style="width:100%" onclick="currentSlide(2)" alt="Captions change when you go to a new image">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="assets/2018-1.png" style="width:100%" onclick="currentSlide(3)" alt="Right now the images ae mixed, but soon...">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="assets/2019-2.png" style="width:100%" onclick="currentSlide(4)" alt="...the images will correspond to their correct years">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      <img class="demo cursor" src="assets/2018-1.png" style="width:100%" onclick="currentSlide(5)" alt="We just need to get four more images from...">
     </div> 
     <div class="column">
-      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      <img class="demo cursor" src="assets/2018-2.png" style="width:100%" onclick="currentSlide(6)" alt="...each Homerathon, and we will be set!">
     </div>
   </div>
 </div>
