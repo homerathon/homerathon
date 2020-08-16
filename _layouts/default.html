@@ -34,6 +34,16 @@
              
  <div id="player" allow="autoplay"></div>
 
+ 
+   <!-- THIS REDIRECTS TO THE MOBILE SITE  --> 
+<script>
+ if (screen.width <= 699) {
+document.location = "/mob-home.html";
+}
+</script>
+ 
+ 
+   <!-- THIS CREATES THE YOUTUBE PLAYER  --> 
   <script>
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
