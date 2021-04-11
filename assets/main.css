@@ -8,7 +8,7 @@ body {
 	background-repeat: repeat;
 }
 
-.header {position: absolute; /*min-width: 100%; min-height: 20%; max-width: 100%; max-height: 15%;*/ background-color: rgba(79,16,20,.5); top: 0%; left: 0%; font-family: "EB Garamond", serif; font-size: 20pt; padding-left: 10%;}
+.header {position: absolute; /*min-width: 100%; min-height: 20%; max-width: 100%; max-height: 15%;*/ background-color: rgba(79,16,20,.5); top: 0%; left: 0%; right: 0%; font-family: "EB Garamond", serif; font-size: 20pt; padding-left: 10%;}
 
 h1 {font-family: "EB Garamond, serif"; font-size: 40pt; color:#E1D9D9; padding-left: 10%;}
 
