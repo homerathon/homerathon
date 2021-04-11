@@ -6,11 +6,12 @@
 body {
 	background-image: url("/assets/ocean.jpg"); 
 	background-repeat: repeat;
-	background-color: rbga(209, 209, 191, .5); margin-top: 20%; margin-left: 20%; margin-right: 30%;
 }
 
 .header {position: absolute; min-width: 100%; min-height: 20%; max-width: 100%; max-height: 15%; background-color: rgba(79,16,20,.5); font-family: "EB Garamond", serif; font-size: 20pt; padding-left: 10%;}
 
 h1 {font-family: "EB Garamond, serif"; font-size: 40pt; color:#E1D9D9; padding-left: 10%;}
 
-/*.white-block {position: absolute; background-color: rgba(209,209, 191,.5); min-width: 85%; min-height: 170%; max-width: 80%; max-height: 170%; top: 15%; left: 7.5%; padding-left: 12%; padding-top: 5%; padding-right: 12%;}*/
+.white-block {position: absolute; background-color: rgba(209,209, 191,.5); margin-top: 20%; padding-left: 10%;}
+	
+	/*min-width: 85%; min-height: 170%; max-width: 80%; max-height: 170%; top: 15%; left: 7.5%; padding-left: 12%; padding-top: 5%; padding-right: 12%;}*/
