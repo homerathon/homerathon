@@ -12,6 +12,8 @@ body {
 
 h1 {font-family: "EB Garamond, serif"; font-size: 40pt; color:#E1D9D9; padding-left: 20px;;}
 
+p {padding-left: 10px; padding-right: 40px;}
+
 .white-block {position: absolute; backdrop-filter: blur;}
 .background {filter: blur(10px);
 	position: absolute;
