@@ -17,3 +17,7 @@ h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; pad
 .body-copy {background-color: rgba(248,248,255,.5); font-size: 18px; margin-right: 20%; margin-left: 5%; margin-bottom: 0%; padding: 25px;}
 
 .video {display: block; padding-top: 20px;}
+
+a {color: #4f1014;} 
+
+a:hover {color: #000000;}
