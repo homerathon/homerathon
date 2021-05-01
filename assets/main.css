@@ -13,6 +13,9 @@ body {
 	height: 7%; 
 	width:100%; 
 	padding-bottom: 10px;
+	position: relative;
+	margin-top: 0%;
+	margin-left: 0%;
 /* 	position: absolute; 
 	top: 3.5%;
 	left: 50%;
@@ -30,6 +33,7 @@ h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; pad
 	font-size: 18px; 
 	padding: 25px;
 	margin-left: 5%;
+	position: relative;
 /* 	position: absolute;
 	top: 53.5%;
 	left: 45%;
