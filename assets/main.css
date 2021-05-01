@@ -11,7 +11,7 @@ body {
 .header {
 	display: block; 
 	background-color: rgba(79,16,20,.5); 
-	height: 7vh; 
+	height: 7%; 
 	width:100vw; 
 	position: absolute; 
 	top: 0%; 
@@ -24,13 +24,12 @@ h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; pad
 
 .body-copy {
 	position: absolute;
-	height: 93vh; 
+	height: 93%; 
 	width: 75vw; 
-	top: 7vh; 
+	top: 7%; 
 	left: 5vw; 
 	background-color: rgba(248,248,255,.5); 
 	font-size: 18px; 
-	margin-bottom: 0%; 
 	padding: 25px;}
 
 .video {display: block; padding-top: 20px;}
