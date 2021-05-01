@@ -11,8 +11,8 @@ body {
 .header {
 	display: block; 
 	background-color: rgba(79,16,20,.5); 
-	height: 7%; 
-	width:100%; 
+	height: 7vh; 
+	width:100vw; 
 	position: absolute; 
 	top: 0%; 
 	right: 0%; 
@@ -24,14 +24,12 @@ h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; pad
 
 .body-copy {
 	position: absolute;
-	height: 93%; 
-	width: 75%; 
+	height: 93vh; 
+	width: 75vw; 
 	top: 7%; 
-	right: 20%; 
+	right: 57.5%; 
 	background-color: rgba(248,248,255,.5); 
 	font-size: 18px; 
-	margin-right: 20%; 
-	margin-left: 5%; 
 	margin-bottom: 0%; 
 	padding: 25px;}
 
