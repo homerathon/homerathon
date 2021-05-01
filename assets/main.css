@@ -27,7 +27,7 @@ h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; pad
 	height: 93vh; 
 	width: 75vw; 
 	top: 7%; 
-	right: 57.5%; 
+	left: 57.5%; 
 	background-color: rgba(248,248,255,.5); 
 	font-size: 18px; 
 	margin-bottom: 0%; 
