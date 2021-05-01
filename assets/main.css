@@ -14,7 +14,7 @@ body {
 	width:100vw; 
 	position: absolute; 
 	padding-bottom: 10px;
-	top: 0%;
+	top: 3.5%;
 	left: 50%;
 	transform: translate(-50%, -50%); 
 }
