@@ -13,9 +13,9 @@ body {
 	height: 7vh; 
 	max-height: 7vh;
 	min-height: 7vh;
-	width:100vw; 
-	max-width: 7vh;
-	min-width: 7vh;
+	width: 100vw; 
+	max-width: 100vh;
+	min-width: 100vh;
 	padding-bottom: 10px;
 	position: relative;
 	display: inline-block;
