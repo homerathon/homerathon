@@ -11,7 +11,7 @@ body {
 .header {
 	background-color: rgba(79,16,20,.5); 
 	height: 7%; 
-	width:100vw; 
+	width:100%; 
 	position: absolute; 
 	padding-bottom: 10px;
 	top: 3.5%;
@@ -26,7 +26,7 @@ h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; pad
 .body-copy {
 	position: absolute;
 	height: 93%; 
-	width: 75vw; 
+	width: 75%; 
 	background-color: rgba(248,248,255,.5); 
 	font-size: 18px; 
 	padding: 25px;
