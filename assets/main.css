@@ -8,7 +8,7 @@ body {
 	background-repeat: repeat;
 }
 
-.header {display: block; background-color: rgba(79,16,20,.5); margin-top: 0%; width:100%; left: 100%; right: 100%; padding-bottom: 10px;}
+.header {display: block; background-color: rgba(79,16,20,.5); margin-top: 0%; width:100%; position: absolute; top: 0%; right: 0%; padding-bottom: 10px;}
 
 .header a {font-family: font-family: 'Roboto', sans-serif; font-size: 18px; color: #FAF9F6; padding-left: 20px;}
 
