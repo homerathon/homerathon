@@ -12,11 +12,11 @@ body {
 	background-color: rgba(79,16,20,.5); 
 	height: 7%; 
 	width:100%; 
-	position: absolute; 
 	padding-bottom: 10px;
+/* 	position: absolute; 
 	top: 3.5%;
 	left: 50%;
-	transform: translate(-50%, -50%); 
+	transform: translate(-50%, -50%);  */
 }
 
 .header a {font-family: font-family: 'Roboto', sans-serif; font-size: 18px; color: #FAF9F6; padding-left: 20px;}
@@ -24,15 +24,16 @@ body {
 h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; padding-left: 20px;}
 
 .body-copy {
-	position: absolute;
 	height: 93%; 
 	width: 75%; 
 	background-color: rgba(248,248,255,.5); 
 	font-size: 18px; 
 	padding: 25px;
+	margin-left: 5%;
+/* 	position: absolute;
 	top: 53.5%;
 	left: 45%;
-	transform: translate(-50%, -50%); 
+	transform: translate(-50%, -50%);  */
 }
 
 .video {display: block; padding-top: 20px;}
