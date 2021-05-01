@@ -47,6 +47,7 @@ h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; pad
 	font-size: 18px; 
 	padding: 25px;
 	margin-left: 5vw;
+	margin-bottom: 0vw;
 	position: relative;
 	display: inline-block;
 /* 	position: absolute;
