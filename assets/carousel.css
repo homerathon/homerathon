@@ -22,17 +22,17 @@ img {
 }
 
 .wrapper {
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(3, 100%);
   overflow: hidden;
   scroll-behavior: smooth;
 }
 .wrapper section {
-  padding: 0 0 0 5vw;
+  padding: 0 5vw 0 5vw;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #1c1c1c;
   display: grid;
   grid-template-columns: repeat(6, auto);
@@ -41,7 +41,7 @@ img {
   position: relative;
   width: 13vw;
   padding: 0 2px;
-  margin: 1vw 60px 1vw 0px;
+  margin: 1vw 0px 1vw 0px;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
@@ -65,7 +65,7 @@ img {
   text-decoration: none;
   font-size: 6em;
   background: black;
-  width: 5vw;
+  width: 4vw;
   padding: 20px;
   text-align: center;
   z-index: 1;
