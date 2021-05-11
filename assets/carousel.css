@@ -23,6 +23,7 @@ img {
 
 
 .wrapper {
+  background-color: #1c1c1c;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(3, 100%);
@@ -35,10 +36,9 @@ img {
   padding: 0 0 0 0;
   position: absolute;
   bottom: 0;
-  width: 100vw;
-  background-color: #1c1c1c;
+  width: 92vw;
   display: grid;
-  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(6, auto);
 }
 .wrapper section .item {
   position: relative;
