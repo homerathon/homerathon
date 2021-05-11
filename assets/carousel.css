@@ -29,6 +29,7 @@ h1 {
 .wrapper section .item {
   position: relative;
   padding: 0 2px;
+  margin: 20px;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
