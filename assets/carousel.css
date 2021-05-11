@@ -1,65 +1,73 @@
-html, body {
-  position: relative;
-  height: 100%;
+$itemGrow: 1.2;
+$duration: 250ms;
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: #000;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #fff;
   margin: 0;
-  padding: 0;
-}
-
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  
-  /* Update: Removed the Flex property - IE FIX */
- 
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  background-color: #000;
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   color: red;
   text-align: center;
 }
 
-:root {
-  --swiper-theme-color: #fff;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3,100%);
+  overflow:hidden;
+  scroll-behavior: smooth;
+
+  section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+    
+    .item {
+      padding: 0 2px;
+      transition: $duration all;
+      
+      &:hover { 
+        margin: 0 40px;
+        transform: scale(1.2);
+      }
+      
+    }
+    
+    a {
+      position: absolute;
+      color: #fff;
+      text-decoration: none;
+      font-size: 6em;
+      background:rgb(0,0,0);
+      width: 80px;
+      padding: 20px;
+      text-align: center;
+      z-index: 1;
+      
+      &:nth-of-type(1) {
+        top:0; bottom:0; left:0;
+        background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+      }
+      &:nth-of-type(2) {
+        top:0; bottom:0; right: 0;
+        background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+      }
+      
+    }
+    
+  }
 }
 
-.netflix-slider .swiper-wrapper {
-  padding: 20px 0;
+// Remove the arrow for Mobile
+@media only screen and (max-width: 600px) {
+  a.arrow__btn {
+    display:none;
+  }
 }
-
-.netflix-slider .swiper-slide {
-  -webkit-transition: 250ms all;
-  transition: 250ms all;
-}
-
-.netflix-slider .swiper-slide:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  z-index: 1;
-}
-
-.netflix-slider .swiper-slide:first-child:hover {
-  margin: 0 40px;
-}
-
-.netflix-slider .swiper-slide:last-child:hover {
-  margin: 0 -40px;
-}
-/*# sourceMappingURL=styles.css.map */
