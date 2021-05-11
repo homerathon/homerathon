@@ -33,7 +33,7 @@ h1 {
   transition: 250ms all;
 }
 .wrapper section .item:hover {
-  margin: 40px;
+  margin: 0 40px;
   transform: scale(1.2);
 }
 .wrapper section .item .heading {
