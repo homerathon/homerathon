@@ -30,22 +30,19 @@ img {
   scroll-behavior: smooth;
 }
 
-.wrapper spacer {
-  width: 4vw;
-}
 
 .wrapper section {
   padding: 0 0 0 0;
   position: absolute;
   bottom: 0;
-  width: 92vw;
+  width: 100vw;
   background-color: #1c1c1c;
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(8, auto);
 }
 .wrapper section .item {
   position: relative;
-  width: 13vw;
+  min-width: 1vw;
   padding: 0 2px;
   margin: 1vw 0px 1vw 0px;
   transition: 250ms all;
