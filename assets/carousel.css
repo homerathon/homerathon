@@ -23,21 +23,20 @@ img {
 
 
 .wrapper {
-  position: absolute;
-  bottom: 0;
-  background-color: #1c1c1c;
   width: 100vw;
-  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
   overflow: hidden;
   scroll-behavior: smooth;
 }
 
 
 .wrapper section {
+  background-color: #1c1c1c;
   padding: 0 0 0 0;
   position: absolute;
   bottom: 0;
-  width: 92vw;
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(6, auto);
 }
@@ -63,7 +62,7 @@ img {
   left: 20px;
   color: #fff;
 }
-.wrapper .arrow__btn {
+.wrapper section .arrow__btn {
   position: absolute;
   color: #fff;
   text-decoration: none;
@@ -74,13 +73,13 @@ img {
   text-align: center;
   z-index: 1;
 }
-.wrapper .left-arrow {
+.wrapper section .arrow__btn .left-arrow {
   top: 0;
   bottom: 0;
   left: 0;
   background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black  100%);
 }
-.wrapper section .right-arrow {
+.wrapper section .arrow__btn .right-arrow {
   top: 0;
   bottom: 0;
   right: 0;
