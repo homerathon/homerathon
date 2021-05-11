@@ -35,7 +35,7 @@ img {
   width: 100%;
   background-color: #1c1c1c;
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(6, auto);
 }
 .wrapper section .item {
   position: relative;
