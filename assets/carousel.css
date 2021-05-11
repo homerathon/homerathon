@@ -12,6 +12,9 @@ h1 {
   color: red;
   text-align: center;
 }
+img {
+  width: 11vw;
+}
 
 .wrapper {
   display: grid;
@@ -29,7 +32,7 @@ h1 {
 }
 .wrapper section .item {
   position: relative;
-  width: 11%;
+  width: 11vw;
   padding: 0 2px;
   margin: 20px;
   transition: 250ms all;
