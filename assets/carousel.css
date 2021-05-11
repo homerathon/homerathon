@@ -21,6 +21,7 @@ img {
   text-align: center;
 }
 
+
 .wrapper {
   width: 100vw;
   display: grid;
@@ -28,11 +29,16 @@ img {
   overflow: hidden;
   scroll-behavior: smooth;
 }
+
+.wrapper spacer {
+  width: 4vw;
+}
+
 .wrapper section {
   padding: 0 0 0 0;
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  width: 92vw;
   background-color: #1c1c1c;
   display: grid;
   grid-template-columns: repeat(6, auto);
