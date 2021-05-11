@@ -1,147 +1,84 @@
 <!DOCTYPE html>
-<html>
-<body style="background-image: url('/assets/ocean.jpg'); background-repeat: repeat;">
- <link rel="stylesheet" type="text/css" href="assets/style.scss">
- 
- <div style="position: absolute; min-width: 100%; min-height: 15%; max-width: 100%; max-height: 15%; background-color: rgba(79,16,20,.5);">
- <b class = "top top-header">HOMERATHON</b>
- <a href="/" class = "top top-link">home </a>
- <b class = "top top-link"> | </b>
- <a href="/2019" class = "top top-link"> 2019 </a>
-  <b class = "top top-link"> | </b>
- <a href="/2020" class = "top top-link"> 2020</a>
- </div>
-  
-  
-<div style="position: absolute; background-color: rgba(209,209, 191,.5); min-width: 85%; min-height: 170%; max-width: 80%; max-height: 170%; top: 15%; left: 7.5%;">
-<div style="padding-left: 12%; padding-top: 5%; padding-right: 12%;">
- <b style="font-size: 1.7vw; font-family: mont;">
-  This is where text about the 2018 Homerathon will go. There is a gallery of images from the 2018 Homerathon below.
-  This is where text about the 2018 Homerathon will go. There is a gallery of images from the 2018 Homerathon below.
-  This is where text about the 2018 Homerathon will go. There is a gallery of images from the 2018 Homerathon below.
-  This is where text about the 2018 Homerathon will go. There is a gallery of images from the 2018 Homerathon below.
-  This is where text about the 2018 Homerathon will go. There is a gallery of images from the 2018 Homerathon below.
-  This is where text about the 2018 Homerathon will go. There is a gallery of images from the 2018 Homerathon below.
- </b>
-</div>
- </div>
- 
- 
- 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Netflix 1.1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
- <!-- The following is the gallery code -->
- 
- 
- <!-- Container for the image gallery -->
-<div class="container" style="position: absolute;
-    min-width: 76%;
-    min-height: 76%;
-    max-width: 76%;
-    max-height: 76%;
-    top: 85%;
-    left: 12%;">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../assets/carousel.css">
 
- 
-    <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
- 
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-      <img src="assets/2019-1.png" style="width:100%">
-  </div>
+  <!-- Demo styles -->
+  <style>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-      <img src="assets/2018-2.png" style="width:100%">
-  </div>
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <h1>NETFLIX</h1>
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-      <img src="assets/2018-1.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-      <img src="assets/2019-2.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="assets/2018-1.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-      <img src="assets/2018-2.png" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
- 
- <div style="background-color: #000000;">
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/2019-1.png" style="width:100%" onclick="currentSlide(1)" alt="This is where captions for the images will go">
-    </div>
-    <div class="column"> 
-      <img class="demo cursor" src="assets/2018-2.png" style="width:100%" onclick="currentSlide(2)" alt="Captions change when you go to a new image">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/2018-1.png" style="width:100%" onclick="currentSlide(3)" alt="Right now the images ae mixed, but soon...">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/2019-2.png" style="width:100%" onclick="currentSlide(4)" alt="...the images will correspond to their correct years">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/2018-1.png" style="width:100%" onclick="currentSlide(5)" alt="We just need to get four more images from...">
-    </div> 
-    <div class="column">
-      <img class="demo cursor" src="assets/2018-2.png" style="width:100%" onclick="currentSlide(6)" alt="...each Homerathon, and we will be set!">
+  <div class="netflix-slider">
+    <h2>Popular on Netflix</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/1.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/2.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/3.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/4.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/5.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/6.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/7.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/8.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/9.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/10.jpg" alt="Movie Title"></div>
+      </div>
+      <!-- Add Pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </div>
-</div>
- 
- 
- <script>
-  
-  var slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  <div class="netflix-slider">
+    <h2>Continue watching...</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/1.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/2.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/3.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/4.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/5.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/6.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/7.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/8.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/9.jpg" alt="Movie Title"></div>
+        <div class="swiper-slide"><img src="img/10.jpg" alt="Movie Title"></div>
+      </div>
+      <!-- Add Pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+  <!-- Swiper JS -->
+  <script src="../package/js/swiper.min.js"></script>
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-
-
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 6,
+      spaceBetween: 10,
+      slidesPerGroup: 2,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 </body>
-</html> 
+</html>
