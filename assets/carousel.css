@@ -23,10 +23,11 @@ img {
 
 
 .wrapper {
+  position: absolute;
+  bottom: 0;
   background-color: #1c1c1c;
   width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(3, 100%);
+  display: inline-block;
   overflow: hidden;
   scroll-behavior: smooth;
 }
@@ -62,7 +63,7 @@ img {
   left: 20px;
   color: #fff;
 }
-.wrapper section .arrow__btn {
+.wrapper .arrow__btn {
   position: absolute;
   color: #fff;
   text-decoration: none;
@@ -73,7 +74,7 @@ img {
   text-align: center;
   z-index: 1;
 }
-.wrapper section .left-arrow {
+.wrapper .left-arrow {
   top: 0;
   bottom: 0;
   left: 0;
