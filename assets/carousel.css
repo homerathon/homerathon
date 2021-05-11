@@ -22,6 +22,7 @@ img {
 }
 
 .wrapper {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 100%);
   overflow: hidden;
@@ -73,11 +74,11 @@ img {
   top: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, grey  100%);
 }
 .wrapper section .right-arrow {
   top: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, grey 100%);
 }
