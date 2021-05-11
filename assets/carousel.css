@@ -13,7 +13,7 @@ h1 {
   text-align: center;
 }
 img {
-  width: 11vw;
+  width: 15vw;
 }
 
 .wrapper {
@@ -32,9 +32,9 @@ img {
 }
 .wrapper section .item {
   position: relative;
-  width: 11vw;
+  width: 15vw;
   padding: 0 2px;
-  margin: 20px;
+  margin: 20px 1vw 20px 1vw;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
