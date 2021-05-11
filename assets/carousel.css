@@ -41,7 +41,7 @@ img {
   position: relative;
   width: 13vw;
   padding: 0 2px;
-  margin: 60px 1vw 0px 1vw;
+  margin: 1vw 60px 1vw 0px;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
