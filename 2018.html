@@ -47,16 +47,17 @@
         scroll = 0;} 
       else {
         scroll = scroll+1;}
-      imgRef(6*scroll);
+      imgRef();
     }
 
-    function imgRef(basePic){
+    function imgRef(){
       var repository = "assets/2021thum/pic";
       var fileType = ".png";
+      var basePic = 6 * scroll;
       for(i=0; i<6; i++){
-        var picture = (basePic+i).toString(10);
-        var frame = (i).toString(10);
-        var path = repository.concat(picture).concat(fileType);
+        var picture = basePic+i;
+        var frame = i.toString(10);
+        var path = repository.concat(picture.toString(10)).concat(fileType);
         document.getElementById(frame).src = path;
       }
     }
