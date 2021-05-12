@@ -32,7 +32,6 @@
 
 // code for scrolling images
     var scroll = 0;
-    var scrollArr = [0,100,200,300,400,500];
 
     function prev(){
       if(scroll==0){
@@ -62,11 +61,32 @@
       }
     }
 
-
 // code for skipping to time
+    var timeMarkers = [
+      0,
+      60,
+      120,
+      180,
+      240,
+      300,
+      360,
+      420,
+      480,
+      540,
+      600,
+      660,
+      720,
+      780,
+      840,
+      900,
+      960,
+      1020,
+    ];
+    
     function seek(sec){
       if(player){
-        seconds = sec;
+        var marker = (6*scroll) + sec;
+        seconds = timeMarkers[marker];
         player.seekTo(seconds, true);
       }
     }
