@@ -48,8 +48,8 @@ iframe {
   position: absolute;
   bottom: 0;
   width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(6, auto);
+  display: inline-block;
+/*   grid-template-columns: repeat(6, auto); */
 }
 .wrapper section .item {
   width: 16vw;
