@@ -68,8 +68,8 @@ img {
   text-decoration: none;
   font-size: 6em;
   background: black;
-  width: 3vw;
-  padding: 1vw;
+  width: 2.5vw;
+  padding: 0.5vw;
   text-align: center;
   z-index: 1;
 }
@@ -77,11 +77,11 @@ img {
   top: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black  100%);
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black  75%);
 }
 .wrapper section .right-arrow {
   top: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 75%);
 }
