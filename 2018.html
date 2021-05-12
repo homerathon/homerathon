@@ -34,7 +34,7 @@
     var scroll = 0;
     var scrollArr = [0,100,200,300,400,500];
 
-    prev(){
+    function prev(){
       if(scroll==0){
         scroll = 2;} 
       else {
@@ -42,7 +42,7 @@
       imgRef(6*scroll);
     }
 
-    next(){
+    function next(){
       if(scroll==2){
         scroll = 0;} 
       else {
@@ -50,7 +50,7 @@
       imgRef(6*scroll);
     }
 
-    imgRef(basePic){
+    function imgRef(basePic){
       var repository = "assets/2021thum/pic";
       var fileType = ".png";
       for(i=0; i<6; i++){
