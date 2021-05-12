@@ -62,16 +62,6 @@
       }
     }
 
-function go(){
- var firstPage = page;
- var secondPage = page+1;
- var path = "assets/homeric/";
- var fileType = ".png";
- var firstPath = path.concat(firstPage.toString(10)).concat(fileType);
- var secondPath = path.concat(secondPage.toString(10)).concat(fileType);
- document.getElementById('prev').src = firstPath;
- document.getElementById('next').src = secondPath;
-}
 
 // code for skipping to time
     function seek(sec){
