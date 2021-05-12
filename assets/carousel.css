@@ -25,7 +25,7 @@ img {
 .wrapper {
   width: 100vw;
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(8, auto);
   overflow: hidden;
   scroll-behavior: smooth;
 }
