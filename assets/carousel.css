@@ -11,7 +11,7 @@ body {
 }
 
 img {
-  width: 13vw;
+  width: 12vw;
 }
 
 .topBar {
@@ -51,10 +51,10 @@ iframe {
   grid-template-columns: repeat(6, auto);
 }
 .wrapper section .item {
-  width: 13vw;
+  width: 12vw;
   position: relative;
   padding: 0 2px;
-  margin: 1vw 0px 1vw 4vw;
+  margin: 1vw 0px 1vw 3vw;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
