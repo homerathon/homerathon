@@ -51,10 +51,10 @@ iframe {
   grid-template-columns: repeat(6, auto);
 }
 .wrapper section .item {
-  width: 12vw;
+  width: 17vw;
   position: relative;
   padding: 0 2px;
-  margin: 1vw 0px 1vw 3vw;
+  margin: 2vh 0px 2vh 3vw;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
