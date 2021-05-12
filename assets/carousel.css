@@ -48,7 +48,8 @@ iframe {
   position: absolute;
   bottom: 0;
   width: 100vw;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 /*   grid-template-columns: repeat(6, auto); */
 }
 .wrapper section .item {
