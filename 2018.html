@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,48 @@
     <link rel="stylesheet" href="../assets/carousel.css">
 </head>
 
+<script>
+    
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player, instantiated=0, seconds = 0;
+          function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+              height: '390',
+              width: '640',
+              videoId: '7rEeHMQ43cE',
+              playerVars: {rel:0, modestbranding:1, fs:0, autoplay:0},
+              events: {
+                'onReady': onPlayerReady
+              }
+              }
+            );
+          }
+
+          function onPlayerReady(event) {
+            player.setVolume(100);
+          }
+
+    function seek(sec){
+        if(player){
+            seconds = sec;
+            player.seekTo(seconds, true);
+    }}
+
+</script>
+
+ <div id="player" allow="autoplay"></div>
+
+
+
+
+
+
 <div class="topBar">NETFLIX</div>
 
-
+    
 <div class="wrapper">
 
   <section id="section1">
