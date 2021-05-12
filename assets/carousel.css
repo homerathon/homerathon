@@ -25,6 +25,8 @@ iframe {
     diaplay: inline-block;
     min-width: 50vw;
     max-width: 50vw; 
+    min-height: 50vh;
+    max-height: 50vh; 
 }
 
 
