@@ -51,11 +51,11 @@
       imgRef(6*scroll);
     }
 
-    imgRef(basePage){
+    imgRef(basePic){
       var repository = "assets/2021thum/pic";
       var fileType = ".png";
       for(i=0; i<6; i++){
-        var picture = (basePage+i).toString(10);
+        var picture = (basePic+i).toString(10);
         var frame = (i).toString(10);
         var path = repository.concat(picture).concat(fileType);
         document.getElementById(frame).src = path;
