@@ -51,7 +51,7 @@ iframe {
 /*   grid-template-columns: repeat(6, auto); */
 }
 .wrapper section .item {
-  margin: 1vw 0 1vw 0;
+  margin: 1vw 3.17vw 1vw 0;
   width: 13vw;
   position: relative;
   transition: 250ms all;
