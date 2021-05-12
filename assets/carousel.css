@@ -16,10 +16,9 @@ img {
 
 .topBar {
   background-color: #4f1014;
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   padding: 1vh 0 0 5vw;
-  text-align: center;
 }
 
 iframe {
