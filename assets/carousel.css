@@ -41,8 +41,8 @@ img {
   grid-template-columns: repeat(6, auto);
 }
 .wrapper section .item {
+  width: 13vw;
   position: relative;
-  min-width: 1vw;
   padding: 0 2px;
   margin: 1vw 0px 1vw 2vw;
   transition: 250ms all;
