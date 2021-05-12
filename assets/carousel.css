@@ -43,7 +43,6 @@ iframe {
 .wrapper section {
   background-color: #1c1c1c;
   padding: 0 0 0 0;
-  margin: 1vw 0 1vw 0;
   position: absolute;
   bottom: 0;
   width: 100vw;
@@ -52,7 +51,8 @@ iframe {
 /*   grid-template-columns: repeat(6, auto); */
 }
 .wrapper section .item {
-  width: 16vw;
+  margin: 1vw 0 1vw 0;
+  width: 13vw;
   position: relative;
   transition: 250ms all;
 }
