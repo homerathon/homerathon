@@ -14,8 +14,7 @@
     tag.src = "https://www.youtube.com/iframe_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    var player, instantiated=0, seconds = 0, scroll = 0;
-    scrolArr = [0,11,12];
+    var player, instantiated=0, seconds = 0,
     function onYouTubeIframeAPIReady() {
       player = new YT.Player('player', {
         height: '390',
@@ -33,7 +32,7 @@
 
 // code for scrolling images
     var scroll = 0;
-    scrolArr = [0,100,200,300,400,500];
+    var scrollArr = [0,100,200,300,400,500];
 
     prev(){
       if(scroll==0){
