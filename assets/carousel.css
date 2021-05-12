@@ -11,7 +11,7 @@ body {
 }
 
 img {
-  margin: 0 0 0 3vw;
+  margin: 0 0 0 4vw;
   width: 12vw;
 }
 
@@ -52,7 +52,7 @@ iframe {
   grid-template-columns: repeat(6, auto);
 }
 .wrapper section .item {
-  width: 16.6vw;
+  width: 16vw;
   position: relative;
   padding: 0 2px;
   margin: 2vh 0 2vh 0;
