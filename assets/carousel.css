@@ -38,7 +38,7 @@ img {
   bottom: 0;
   width: 100vw;
   display: grid;
-  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(6, auto);
 }
 .wrapper section .item {
   position: relative;
