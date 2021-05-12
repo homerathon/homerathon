@@ -55,7 +55,7 @@ iframe {
   width: 16vw;
   position: relative;
   padding: 0 2px;
-  margin: 2vh 0 2vh 0;
+  margin: 2vw 0 2vw 0;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
