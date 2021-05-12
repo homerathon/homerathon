@@ -21,15 +21,16 @@ img {
 }
 
 iframe {
-    position: absolute;
-    min-width: 50%;
-    min-height: 50%;
-    max-width: 50%;
-    max-height: 50%;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);        
+    position: relative;
+    diaplay: inline-block;
+    min-width: 45vw;
+    max-width: 45vw;
+    margin: 0 0 0 5vw;   
 }
+
+
+
+
 
 .wrapper {
   width: 100vw;
