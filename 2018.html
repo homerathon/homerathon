@@ -33,9 +33,45 @@
 
 // code for scrolling images
     var scroll = 0;
-    scrolArr = [0,11,12];
+    scrolArr = [0,100,200,300,400,500];
 
+    prev(){
+      if(scroll==0){
+        scroll = 2;} 
+      else {
+        scroll = scroll-1;}
+      imgRef(scroll);
+    }
 
+    next(){
+      if(scroll==2){
+        scroll = 0;} 
+      else {
+        scroll = scroll+1;}
+      imgRef(6*scroll);
+    }
+
+    imgRef(basePage){
+      var repository = "assets/2021thum/pic";
+      var fileType = ".png";
+      for(i=0; i<6; i++){
+        var picture = (basePage+i).toString(10);
+        var frame = (i).toString(10);
+        var path = repository.concat(picture).concat(fileType);
+        document.getElementById(frame).src = path;
+      }
+    }
+
+function go(){
+ var firstPage = page;
+ var secondPage = page+1;
+ var path = "assets/homeric/";
+ var fileType = ".png";
+ var firstPath = path.concat(firstPage.toString(10)).concat(fileType);
+ var secondPath = path.concat(secondPage.toString(10)).concat(fileType);
+ document.getElementById('prev').src = firstPath;
+ document.getElementById('next').src = secondPath;
+}
 
 // code for skipping to time
     function seek(sec){
