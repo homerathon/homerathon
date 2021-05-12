@@ -67,9 +67,7 @@ img {
   color: #fff;
   text-decoration: none;
   font-size: 6em;
-  background: black;
-  width: 2.5vw;
-  padding: 0.5vw;
+  width: 2vw;
   text-align: center;
   z-index: 1;
 }
