@@ -74,42 +74,42 @@
 
 // code for skipping to time
     var timeMarkers = [
-      0,
-      60,
-      120,
-      180,
-      240,
-      300,
-      360,
-      420,
-      480,
-      540,
-      600,
-      660,
-      720,
-      780,
-      840,
-      900,
-      960,
-      1020,
-      1080,
-      1140,
-      1200,
-      1260,
-      1320,
-      1380,
-      1440,
-      1500,
-      1560,
-      1620,
-      1680,
-      1740,
-      1800,
-      1860,
-      1920,
-      1980,
-      2040,
-      2100,
+    0,
+    306,
+    377,
+    2098,
+    3813,
+    6632,
+    7852,
+    7931,
+    8196,
+    8345,
+    8383,
+    8408,
+    8438,
+    8456,
+    8475,
+    8565,
+    8622,
+    8712,
+    8787,
+    8826,
+    9080,
+    9110,
+    9132,
+    9215,
+    9177,
+    9196,
+    9218,
+    9260,
+    9327,
+    9378,
+    9431,
+    9507,
+    9576,
+    9664,
+    9727,
+    9973
     ];
     function jump(sec){
       var marker = (6*scroll) + sec;
@@ -149,7 +149,7 @@
       We're thrilled that you've joined us for this year's Homerathon! 
       This year, to allow for a virtual format, we are doing the Homeric Hymns, rather than one of the longer epic's.
       We would like to thank all of our readers for taking the time to participate,
-      who nmay be found by <a style="color: #4f1014;" href="/2020archive">clicking here</a>
+      who nmay be found by <a style="color: #4f1014;" onclick="seek(10099)">clicking here</a>
       to jump to the credits. You may jump to other sections by scrolling through the menu below.
       <br><br>
       Thank you to our advisors, Dr. Hart and Dr. Lippman, for providing and commentary not only this year, but for last year's
@@ -167,7 +167,7 @@
     <a onclick="prev()" class="arrow__btn left-arrow">‹</a>
 
     <div class="item">
-      <a onclick="seek(0)">
+      <a onclick="jump(0)">
         <img
           id="0"
           src="assets/21thum/pic0.png"
@@ -176,7 +176,7 @@
     </div>
 
     <div class="item">
-      <a onclick="seek(1)">
+      <a onclick="jump(1)">
         <img
           id="1"
           src="assets/21thum/pic1.png"
@@ -185,7 +185,7 @@
     </div>
       
     <div class="item">
-      <a onclick="seek(2)">
+      <a onclick="jump(2)">
         <img
           id="2"
           src="assets/21thum/pic2.png"
@@ -194,7 +194,7 @@
     </div>
 
     <div class="item">
-      <a onclick="seek(3)">
+      <a onclick="jump(3)">
         <img
           id="3"
           src="assets/21thum/pic3.png"
@@ -203,7 +203,7 @@
     </div>
 
     <div class="item">
-      <a onclick="seek(4)">
+      <a onclick="jump(4)">
         <img
           id="4"
           src="assets/21thum/pic4.png"
@@ -212,7 +212,7 @@
     </div>
 
     <div class="item">
-      <a onclick="seek(5)">
+      <a onclick="jump(5)">
         <img
           id="5"
           src="assets/21thum/pic5.png"
