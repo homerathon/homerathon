@@ -30,7 +30,7 @@
       player = new YT.Player('player', {
         height: '390',
         width: '640',
-        videoId: '7rEeHMQ43cE',
+        videoId: 'yewiA8EDSRg',
         playerVars: {rel:0, modestbranding:1, fs:0, autoplay:0},
         events: {
           'onReady': onPlayerReady
@@ -111,11 +111,14 @@
       2040,
       2100,
     ];
-    
+    function jump(sec){
+      var marker = (6*scroll) + sec;
+      seconds = timeMarkers[marker];
+      seek(seconds);
+    }
     function seek(sec){
       if(player){
-        var marker = (6*scroll) + sec;
-        seconds = timeMarkers[marker];
+        seconds = sec;
         player.seekTo(seconds, true);
       }
     }
@@ -145,15 +148,15 @@
     <p style="font-size: 1.4vw; font-family: 'Roboto', sans-serif; margin: 0; padding: 0;">
       We're thrilled that you've joined us for this year's Homerathon! 
       This year, to allow for a virtual format, we are doing the Homeric Hymns, rather than one of the longer epic's.
-      Thank you to all of our readers for taking the time to participate.
-      Thank you to our advisors, Dr. Hart and Dr. Lippman, for their guidance through the process and for their commentary.
-      <br>
-      <br>Without further ado, we present the Homeric Hymns!
-      <br>
-      <br>Not enough Homer for you? Check out last year's
+      We would like to thank all of our readers for taking the time to participate,
+      who nmay be found by <a style="color: #4f1014;" href="/2020archive">clicking here</a>
+      to jump to the credits. You may jump to other sections by scrolling through the menu below.
+      <br><br>
+      Thank you to our advisors, Dr. Hart and Dr. Lippman, for providing and commentary not only this year, but for last year's
       <br><a style="color: #4f1014;" href="/2020archive">Homerathon: A Panhellenic Plague Performance</a>
-      <br>
-      <br>We look forward to seeing you next year, in person, for another Illiad Homerathon on UNL's Campus!
+      <br><br>
+      Without further ado, we present the Homeric Hymns!
+      We look forward to seeing you next year, in person, for another Illiad Homerathon on UNL's Campus!
     </p>
   </div>
 </div>
