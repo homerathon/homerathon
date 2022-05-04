@@ -48,25 +48,6 @@ body {
 
 h1 {font-family: 'Playfair Display', serif; font-size: 30px; color: #FAF9F6; padding-left: 20px;}
 
-.menu  {
-	background-color: rgba(79,16,20,.5); 
-	height: 7%; 
-	max-height: 7%;
-	min-height: 7%;
-	width: 100%; 
-	max-width: 100%;
-	min-width: 100%;
-	padding-bottom: 10px;
-	padding-right: 50px;
-	position: relative;
-	display: inline-block;
-	text-align: right;
-/* 	position: absolute; 
-	top: 3.5%;
-	right: 50%;
-	transform: translate(-50%, -50%);  */
-}
-
 
 .body-copy {
 
