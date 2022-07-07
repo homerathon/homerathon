@@ -27,7 +27,13 @@ body {
 	min-height: 100%;
 }
 
-.header {
+.topBar {
+  background-color: #4f1014;
+  width: 100vw;
+  height: 9vh;
+}
+
+/*.header {
 	background-color: rgba(79,16,20,.5); 
 	height: 7%; 
 	max-height: 7%;
