@@ -1,235 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homerathon</title>
-    <link rel="stylesheet" href="../assets/carousel.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166814702-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-166814702-1');
-    </script>
+<meta charset="utf-8">
+<title>Homerathon2022</title>
 </head>
-
-<script>
-// code from the Youtube API
-    var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    var player, instantiated=0, seconds = 0;
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player('player', {
-        height: '390',
-        width: '640',
-        videoId: 'yewiA8EDSRg',
-        playerVars: {rel:0, modestbranding:1, fs:0, autoplay:0},
-        events: {
-          'onReady': onPlayerReady
-        }
-      });
-    }
-    function onPlayerReady(event) {
-      player.setVolume(100);
-    }
-
-// code for scrolling images
-    var scroll = 0;
-
-    function prev(){
-      if(scroll==0){
-        scroll = 5;} 
-      else {
-        scroll = scroll-1;}
-      imgRef();
-    }
-
-    function next(){
-      if(scroll==5){
-        scroll = 0;} 
-      else {
-        scroll = scroll+1;}
-      imgRef();
-    }
-
-    function imgRef(){
-      var repository = "assets/21thum/pic";
-      var fileType = ".png";
-      var basePic = 6 * scroll;
-      for(i=0; i<6; i++){
-        var picture = basePic+i;
-        var frame = i.toString(10);
-        var path = repository.concat(picture.toString(10)).concat(fileType);
-        document.getElementById(frame).src = path;
-      }
-    }
-
-// code for skipping to time
-    var timeMarkers = [
-// MENU ONE
-    10,
-    306,
-    377,
-    2098,
-    3813,
-    6632, 
-// MENU TWO
-    7852,
-    7931,
-    8196,
-    8345,
-    8383,
-    8408,
-// MENU THREE
-    8438,
-    8456,
-    8475,
-    8565,
-    8622,
-    8712,
-// MENU FOUR
-    8787,
-    8826,
-    9080,
-    9110,
-    9132,
-    9159,
-// MENU FIVE
-    9177,
-    9196,
-    9218,
-    9260,
-    9327,
-    9378,
-// MENU SIX
-    9431,
-    9507,
-    9576,
-    9664,
-    9727,
-    9973
-    ];
-    function jump(sec){
-      var marker = (6*scroll) + sec;
-      seconds = timeMarkers[marker];
-      seek(seconds);
-    }
-    function seek(sec){
-      if(player){
-        seconds = sec;
-        player.seekTo(seconds, true);
-      }
-    }
-
-</script>
-
-
-<div class="topBar">
-<img
-  style="height: 7vh; width: 29.5vh; margin: 1.5vh 0 0 5vw;"
-  src="assets/homerathon-wordmark-03.png"
-  alt="Describe Image"></img>
+<link rel="stylesheet" type="text/css" href="/assets/main.css">
+<body>
+	<div class="topBar">
+	<a href="index.html"><img  style="height: 7vh; width: 29.5vh; margin: 1.5vh 0 0 5vw;"
+	 
+ 	 src="assets/homerathon-wordmark-03.png"
+	   alt="Homerathon wordmark"></img></a>
+	<div style="display: block; text-align: right; padding-right: 50px; color: #ffffff;">
+	<a href="/2020">2020</a>
+	<a href="/2021">2021</a>
+	</div>
 </div>
-
-<div style="width: 100vw; text-align: center; margin: 1vh 0 4vh 0;">
-  <p style="font-size: 4.5vh; line-height: 4vh; font-family: 'Roboto', sans-serif; margin: 4vh 0 2vh 0; padding: 0;">
-	  Welcome to Homerathon 2021: The <em>Homeric Hymns</em>!</p>
-  
-</div>
-    
-<div style="width: 100vw; display: flex; flex-direction: row;">
-  <div style="width: 50vw; margin: 0 0 0 5vw;">
-    <div id="player" allow="autoplay"></div>
-  </div>
-  <div style="width: 35vw; padding: 0 5vw 0 5vw;">
-    <p style="font-size: 1.3vw; font-family: 'Roboto', sans-serif; margin: 0; padding: 0;">
-      We're thrilled that you've joined us for this year's Homerathon! 
-      To allow for a virtual format, we are doing the <i>Homeric Hymns</i>, rather than a longer epic.
-      <br><br>
-      We would like to thank Sändra Washington from the Lincoln City Council, 
-      as well as all of our hymn-readers, who may be found by
-      <u><a style="color: #4f1014;" onclick="seek(10099);">clicking here</a></u>
-      to jump to the credits. You may also jump to other sections by scrolling through the menu below.
-      <br><br>
-      We'd also like to thank Dr. Hart and Dr. Lippman for their guidance and commentary this year, and for last year's
-      <br><a style="color: #4f1014;" href="/2020archive">Homerathon: A Panhellenic Plague Performance</a>
-      <br><br>
-      Without further ado, we present the <i>Homeric Hymns</i>!
-      We look forward to seeing you next year, in person, for another <i>Illiad</i> Homerathon on UNL's Campus!
-    </p>
-  </div>
-</div>
-
-<div class="wrapper">
-
-  <section>
-    <a onclick="prev()" class="arrow__btn left-arrow">‹</a>
-
-    <div class="item">
-      <a onclick="jump(0)">
-        <img
-          id="0"
-          src="assets/21thum/pic0.png"
-          alt="Describe Image">
-      </a>
-    </div>
-
-    <div class="item">
-      <a onclick="jump(1)">
-        <img
-          id="1"
-          src="assets/21thum/pic1.png"
-          alt="Describe Image">
-      </a>
-    </div>
-      
-    <div class="item">
-      <a onclick="jump(2)">
-        <img
-          id="2"
-          src="assets/21thum/pic2.png"
-          alt="Describe Image">
-      </a>
-    </div>
-
-    <div class="item">
-      <a onclick="jump(3)">
-        <img
-          id="3"
-          src="assets/21thum/pic3.png"
-          alt="Describe Image">
-      </a>
-    </div>
-
-    <div class="item">
-      <a onclick="jump(4)">
-        <img
-          id="4"
-          src="assets/21thum/pic4.png"
-          alt="Describe Image">
-      </a>
-    </div>
-
-    <div class="item">
-      <a onclick="jump(5)">
-        <img
-          id="5"
-          src="assets/21thum/pic5.png"
-          alt="Describe Image">
-      </a>
-    </div>  
-        
-    <a onclick="next()" class="arrow__btn right-arrow">›</a>
-  </section>
-
-</div>
+	<!--<div class="header">
+		<h1>HOMERATHON</h1>
+		<p><a href="/index.html">Home</a>
+		<a href="/2020">2020</a>
+			<a href="/2021">2021</a></p>
+	</div>-->
+	
+	<div class="body-copy">
+	
+		<p>Welcome to Homerathon 2022. We are so excited to be continuing the tradition of the Homerathon at UNL. Once again we are coming to you via a digital format, but that does not mean that the Homerathon tradition is any different.</p>
+		<p>Homerathon is a project that we are proud of because of our wonderful readers as well as you, our audience. Thank you all for continually coming back and supporting us. We look forward to next year when we are live and in-person and we hope that you can join us.</p>
+		<p>Thank you to Chancellor Green for introducing our project this year!</p>
+		<p>Here is Homerathon 2022: Euripedes' Trojan Women! You can also watch last year's performance <strong><a href="/2021.html" target="_blank" rel="noopener noreferrer">Homerathon 2021: The Homeric Hymns</a></strong>. Enjoy!</p>
+		
+		<div class="video">
+			<iframe width="1120" height="630" src="https://www.youtube.com/embed/0-pvoBnOQaQ?controls=0" title="Homerathon 2022: Trojan Women" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	
 </body>
 </html>
