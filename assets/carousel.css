@@ -24,9 +24,9 @@ iframe {
     position: relative;
     diaplay: inline-block;
     min-width: 50vw;
-    max-width: 50vw; 
+    max-width: 50vw;
     min-height: 50vh;
-    max-height: 50vh; 
+    max-height: 50vh;
 }
 
 
@@ -73,14 +73,15 @@ iframe {
   left: 20px;
   color: #fff;
 }
-.wrapper section .arrow__btn {
+.wrapper section .arrow-btn {
   position: absolute;
   color: #fff;
   text-decoration: none;
-  font-size: 6em;
+  font-size: 3vh;
   width: 3vw;
   text-align: center;
   z-index: 1;
+  barder: none;
 }
 .wrapper section .left-arrow {
   top: 0;
