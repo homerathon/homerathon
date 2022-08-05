@@ -43,3 +43,22 @@
   width: 100vw;
   height: 3vw;
 }
+.topBar button{
+  font-size: 2vw;
+  color: #fffaf1;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  background: none;
+  border: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-right: 1px solid #fffaf1;
+  cursor: pointer;
+  float: right;
+}
+.topBar .last {
+  border-right: none;
+}
+.topBar img {
+  margin-right: 1vw;
+}
