@@ -4,8 +4,8 @@
   margin: 1vh 0 4vh 0;
 }
 .title h1 {
-  font-size: 4.5vh;
-  line-height: 4vh;
+  font-size: 4.5vw;
+  line-height: 4vw;
   font-family: 'Roboto', sans-serif;
   margin: 4vh 0 2vh 0;
   padding: 0;
@@ -37,4 +37,9 @@
 .text p a {
   color: #4f1014;
   cursor: pointer;
+}
+.topBar {
+  background-color: #4f1014;
+  width: 100vw;
+  height: 3vw;
 }

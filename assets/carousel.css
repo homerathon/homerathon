@@ -14,11 +14,6 @@ img {
   width: 13vw;
 }
 
-.topBar {
-  background-color: #4f1014;
-  width: 100vw;
-  height: 9vh;
-}
 
 iframe {
     position: relative;
@@ -39,6 +34,9 @@ iframe {
   grid-template-columns: repeat(3, auto);
   overflow: hidden;
   scroll-behavior: smooth;
+  position: fixed;
+  bottom: 0;
+  height: 12vw;
 }
 
 .wrapper section {
