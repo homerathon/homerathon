@@ -4,8 +4,8 @@
   margin: 1vh 0 4vh 0;
 }
 .title h1 {
-  font-size: 4vw;
-  line-height: 3.5vw;
+  font-size: 3.5vw;
+  line-height: 3vw;
   font-family: 'Roboto', sans-serif;
   margin: 4vh 0 2vh 0;
   padding: 0;
@@ -23,7 +23,7 @@
 .content .media {
   width: 50vw;
   margin: 0 0 0 5vw;
-  height: 28.12vw;
+  height: 28.13vw;
   display: inline-block;
 }
 .content .text {
@@ -52,8 +52,7 @@
   font-weight: bolder;
   background: none;
   border: none;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: .2vw;
   border-left: 1px solid #fffaf1;
   cursor: pointer;
   float: right;

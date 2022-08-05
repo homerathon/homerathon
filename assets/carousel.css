@@ -20,6 +20,7 @@ iframe {
     display: inline-block;
     min-width: 50vw;
     max-width: 50vw;
+    height: 28.13vw;
     /*min-height: 50vh;
     max-height: 50vh;*/
 }
@@ -55,6 +56,7 @@ iframe {
   width: 13vw;
   position: relative;
   transition: 250ms all;
+  cursor: pointer;
 }
 .wrapper section .item:hover {
   transform: scale(1.2);
@@ -80,6 +82,7 @@ iframe {
   text-align: center;
   z-index: 1;
   border: none;
+  cursor: pointer;
 }
 .wrapper section .left-arrow {
   top: 0;
