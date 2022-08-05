@@ -54,12 +54,15 @@
   border: none;
   margin-bottom: 5px;
   margin-top: 5px;
-  border-right: 1px solid #fffaf1;
+  border-left: 1px solid #fffaf1;
   cursor: pointer;
   float: right;
 }
+.topBar .first {
+  margin-right: 1vw;
+}
 .topBar .last {
-  border-right: none;
+  border-left: none;
 }
 .topBar img {
   margin-right: 1vw;
