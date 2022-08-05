@@ -20,8 +20,8 @@ iframe {
     diaplay: inline-block;
     min-width: 50vw;
     max-width: 50vw;
-    min-height: 50vh;
-    max-height: 50vh;
+    /*min-height: 50vh;
+    max-height: 50vh;*/
 }
 
 
@@ -36,7 +36,7 @@ iframe {
   scroll-behavior: smooth;
   position: fixed;
   bottom: 0;
-  height: 12vw;
+  height: 10vw;
 }
 
 .wrapper section {
