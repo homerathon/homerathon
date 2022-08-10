@@ -1,39 +1,56 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Homerathon2022</title>
-</head>
-<link rel="stylesheet" type="text/css" href="assets/main.css">
-<body>
-	<div class="topBar">
-	<a href="index.html"><img  style="height: 7vh; width: 29.5vh; margin: 1.5vh 0 0 5vw;"
 
- 	 src="assets/homerathon-wordmark-03.png"
-	   alt="Homerathon wordmark"></img></a>
-	<div style="display: block; text-align: right; padding-right: 50px; color: #ffffff;">
-	<a href="/2020">2020</a>
-	<a href="/2021">2021</a>
-	</div>
-</div>
-	<!--<div class="header">
-		<h1>HOMERATHON</h1>
-		<p><a href="/index.html">Home</a>
-		<a href="/2020">2020</a>
-			<a href="/2021">2021</a></p>
-	</div>-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Homerathon</title>
+      <link rel="stylesheet" href="assets/carousel.css">
+      <link rel="stylesheet" href="assets/index.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <script src="assets/index.js"></script>
 
-	<div class="body-copy">
-
-		<p>Welcome to Homerathon 2022. We are so excited to be continuing the tradition of the Homerathon at UNL. Once again we are coming to you via a digital format, but that does not mean that the Homerathon tradition is any different.</p>
-		<p>Homerathon is a project that we are proud of because of our wonderful readers as well as you, our audience. Thank you all for continually coming back and supporting us. We look forward to next year when we are live and in-person and we hope that you can join us.</p>
-		<p>Thank you to Chancellor Green for introducing our project this year!</p>
-		<p>Here is Homerathon 2022: Euripides' Trojan Women! You can also watch last year's performance <strong><a href="./2021.html" target="_blank" rel="noopener noreferrer">Homerathon 2021: The Homeric Hymns</a></strong>. Enjoy!</p>
-
-		<div class="video">
-			<iframe width="1120" height="630" src="https://www.youtube.com/embed/0-pvoBnOQaQ?controls=0" title="Homerathon 2022: Trojan Women" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-	</div>
-
-</body>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166814702-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-166814702-1');
+      </script>
+  </head>
+  <body>
+    <div class="topBar">
+      <img src="assets/homerathon-wordmark-03.png" alt="Homerathon"></img>
+      <button class="first">2022</button>
+      <button>2021</button>
+      <button class="last">2020</button>
+    </div>
+    <div class="title">
+      <h1>
+	       &nbsp;
+      </h1>
+    </div>
+    <div class="content">
+      <div class="media">
+        <div id="player" allow="autoplay"></div>
+      </div>
+      <div class="text">
+        <p>
+          &nbsp;
+        </p>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="wrapper">
+      <section>
+        <button onclick="prev()" class="arrow-btn left-arrow">‹</button>
+        <button onclick="next()" class="arrow-btn right-arrow">›</button>
+      </section>
+    </div>
+    <script>
+      tileGen();
+    </script>
+  </body>
 </html>
