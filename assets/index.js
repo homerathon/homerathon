@@ -27,17 +27,21 @@ function onPlayerReady(event) {
 var scroll = 0;
 
 function prev(){
-  if(scroll==0){
-    scroll = 5;}
+  var primaStyle = document.getElementsByClassName("prima")[0].style.marginLeft;
+  if(scroll==0){}
   else {
-    scroll = scroll-1;}
+    scroll--;
+    document.getElementsByClassName("prima")[0].style.marginLeft = `${-(scroll*32.2)+3.1}vw`
+  }
 }
 
 function next(){
-  if(scroll==5){
-    scroll = 0;}
+  var primaStyle = document.getElementsByClassName("prima")[0].style.marginLeft;
+  if(scroll==15){}
   else {
-    scroll = scroll+1;}
+    scroll++;
+    document.getElementsByClassName("prima")[0].style.marginLeft = `${-(scroll*32.2)+3.1}vw`
+  }
 }
 
 // code for skipping to time
@@ -93,6 +97,7 @@ function tileGen(){
     for( i in db.values) {
       var element = document.createElement("div");
       element.classList.add("item");
+      if(i == 0) element.classList.add("prima");
 
       var link = document.createElement("a");
       link.onclick=`seek(${db.values[i].time})`
