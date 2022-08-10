@@ -28,7 +28,7 @@ var scroll = 0;
 
 function prev(){
   var primaStyle = document.getElementsByClassName("prima")[0].style.marginLeft;
-  if(scroll==0){}
+  if(scroll<=0){}
   else {
     scroll--;
     document.getElementsByClassName("prima")[0].style.marginLeft = `${-(scroll*32.2)+3.1}vw`
@@ -39,7 +39,7 @@ function next(){
   var primaStyle = document.getElementsByClassName("prima")[0].style.marginLeft;
   var last = document.getElementsByClassName("item");
   last = last[last.length-1];
-  if(last.offsetLeft>document.body.offsetWidth){}
+  if(last.offsetLeft+last.offsetWidth<document.body.offsetWidth){}
   else {
     scroll++;
     document.getElementsByClassName("prima")[0].style.marginLeft = `${-(scroll*32.2)+3.1}vw`
