@@ -14,7 +14,11 @@ var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-var player, instantiated=0, seconds = 0;
+var player, instantiated=0, seconds = 0, ready=false;
+function onYouTubeIframeAPIReady() {
+  ready=true;
+}
+
 function onPlayerReady(event) {
   player.setVolume(100);
 }
@@ -53,7 +57,7 @@ function tileGen(){
     title.innerHTML=db.title;
 
     //load player
-    function onYouTubeIframeAPIReady() {
+    if(ready) {
       player = new YT.Player('player', {
         height: '390',
         width: '640',
@@ -63,6 +67,19 @@ function tileGen(){
           'onReady': onPlayerReady
         }
       });
+    }
+    else {
+       onYouTubeIframeAPIReady=function(){
+         player = new YT.Player('player', {
+           height: '390',
+           width: '640',
+           videoId: db.videoID,
+           playerVars: {rel:0, modestbranding:1, fs:0, autoplay:0},
+           events: {
+             'onReady': onPlayerReady
+           }
+         });
+       }
     }
     //load content
     var content = document.getElementsByClassName("text")[0].children[0];
@@ -82,7 +99,7 @@ function tileGen(){
       element.appendChild(link);
 
       var img = document.createElement("img");
-      img.src = `assets/21thium/pic${i}.png`;
+      img.src = `assets/21thum/pic${i}.png`;
       img.alt = db.values[i].alt;
       link.appendChild(img);
 
