@@ -43,7 +43,7 @@ function seek(sec){
     player.seekTo(seconds, true);
   }
 }
-function tileGen(root, button){
+function tileGen(){
   var xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     var db = JSON.parse(this.responseText)
@@ -67,29 +67,29 @@ function tileGen(root, button){
     //load content
     var content = document.getElementsByClassName("text")[0].children[0];
     for(pg in db.description) {
-      content.innerHTML += pg + "<br><br>";
+      content.innerHTML += db.description[pg] + "<br><br>";
     }
 
     //load chapters
     var root = document.getElementsByClassName("wrapper")[0].children[0];
     var button = document.getElementsByClassName("right-arrow")[0];
-    for( i=0; i<db.values.length; i++ ) {
+    for( i in db.values) {
       var element = document.createElement("div");
       element.classList.add("item");
 
       var link = document.createElement("a");
-      link.onclick=`seek({db.values[i].time})`
+      link.onclick=`seek(${db.values[i].time})`
       element.appendChild(link);
 
       var img = document.createElement("img");
-      img.src = `assets/21thium/pic{i}.png`;
+      img.src = `assets/21thium/pic${i}.png`;
       img.alt = db.values[i].alt;
       link.appendChild(img);
 
-      root.insertBefore(button, element);
+      root.insertBefore(element, button);
     }
   }
-  xhttp.open("GET", "assets/2021.json");
+  xhttp.open("GET", `assets/${year}.json`);
   xhttp.send();
 
 }
