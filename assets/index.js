@@ -110,7 +110,8 @@ function tileGen(){
       if(i == 0) element.classList.add("prima");
 
       var link = document.createElement("button");
-      link.onclick=`seek(${db.values[i].time})`
+      link.seektime = db.values[i].time;
+      link.onclick=function(){seek(this.seektime);}
       element.appendChild(link);
 
       var img = document.createElement("img");
