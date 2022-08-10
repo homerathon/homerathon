@@ -120,4 +120,7 @@ body {
   .wrapper section .item button img {
     width: 26vw;
   }
+  .padding {
+    height: 20vw;
+  }
 }
