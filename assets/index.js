@@ -1,4 +1,4 @@
-let paramString = urlString.split('?')[1];
+let paramString = document.URL.split('?')[1];
 let queryString = new URLSearchParams(paramString);
 var year = "2021"
 for (let pair of queryString.entries()) {
