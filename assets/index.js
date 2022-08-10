@@ -37,7 +37,9 @@ function prev(){
 
 function next(){
   var primaStyle = document.getElementsByClassName("prima")[0].style.marginLeft;
-  if(scroll==15){}
+  var last = document.getElementsByClassName("item");
+  last = last[last.length-1];
+  if(last.offsetLeft>document.body.offsetWidth){}
   else {
     scroll++;
     document.getElementsByClassName("prima")[0].style.marginLeft = `${-(scroll*32.2)+3.1}vw`
@@ -99,7 +101,7 @@ function tileGen(){
       element.classList.add("item");
       if(i == 0) element.classList.add("prima");
 
-      var link = document.createElement("a");
+      var link = document.createElement("button");
       link.onclick=`seek(${db.values[i].time})`
       element.appendChild(link);
 

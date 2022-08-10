@@ -71,5 +71,41 @@ body {
   margin-right: 1vw;
 }
 .spacer {
-  height: 1vw;
+  height: 10vw;
+}
+@media screen and (max-width: 480px) {
+  .content {
+    flex-direction: column;
+  }
+  .content .media {
+    width: 90vw;
+    height: 50.63vw;
+  }
+  .content .media iframe {
+    height: 50.63vw;
+    min-width: 90vw;
+    max-width: 90vw;
+  }
+  .content .text {
+    width: 90vw;
+  }
+  .content .text p {
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+  .arrow-btn {
+  }
+  .wrapper {
+    height: 20vw;
+  }
+  .wrapper section {
+    height: 20vw;
+  }
+  .wrapper section .item {
+    width: 26vw;
+    padding: 0 0 0 3vw;
+  }
+  .wrapper section .item button img {
+    width: 26vw;
+  }
 }

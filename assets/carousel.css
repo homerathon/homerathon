@@ -73,6 +73,12 @@ iframe {
   left: 20px;
   color: #fff;
 }
+.wrapper section .item button {
+  background: inherit;
+  border: none;
+  margin: none;
+  padding: none;
+}
 .wrapper section .arrow-btn {
   position: absolute;
   color: #fff;
