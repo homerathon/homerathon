@@ -49,7 +49,7 @@ function tileGen(root, button){
     var db = JSON.parse(this.responseText)
 
     //load title
-    var title = document.getElementsByClassName("title")[0].childeren[0];
+    var title = document.getElementsByClassName("title")[0].children[0];
     title.innerHTML=db.title;
 
     //load player
@@ -65,13 +65,13 @@ function tileGen(root, button){
       });
     }
     //load content
-    var content = document.getElementsByClassName("text")[0].childeren[0];
+    var content = document.getElementsByClassName("text")[0].children[0];
     for(pg in db.description) {
       content.innerHTML += pg + "<br><br>";
     }
 
     //load chapters
-    var root = document.getElementsByClassName("wrapper")[0].childeren[0];
+    var root = document.getElementsByClassName("wrapper")[0].children[0];
     var button = document.getElementsByClassName("right-arrow")[0];
     for( i=0; i<db.values.length; i++ ) {
       var element = document.createElement("div");
