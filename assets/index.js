@@ -2,7 +2,12 @@ let paramString = document.URL.split('?')[1];
 let queryString = new URLSearchParams(paramString);
 var year = "2021"
 for (let pair of queryString.entries()) {
-   if(pair[0]==="year") {
+  //ok so i'm lazy, sue me
+   if(pair[0]==="year" && (
+     pair[1] == 2020 ||
+     pair[1] == 2021 ||
+     pair[1] == 2022
+   )) {
      year=pair[1];
    }
 }
@@ -61,6 +66,9 @@ function tileGen(){
     //load title
     var title = document.getElementsByClassName("title")[0].children[0];
     title.innerHTML=db.title;
+    title.syle.fontSize = db.titlesize + "vw";
+    title.syle.lineHeight = (db.titlesize-.5) + "vw";
+
 
     //load player
     if(ready) {
@@ -106,7 +114,7 @@ function tileGen(){
       element.appendChild(link);
 
       var img = document.createElement("img");
-      img.src = `assets/21thum/pic${i}.png`;
+      img.src = `assets/assets-${year}/pic${i}.png`;
       img.alt = db.values[i].alt;
       link.appendChild(img);
 
