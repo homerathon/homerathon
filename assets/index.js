@@ -66,8 +66,8 @@ function tileGen(){
     //load title
     var title = document.getElementsByClassName("title")[0].children[0];
     title.innerHTML=db.title;
-    title.syle.fontSize = db.titlesize + "vw";
-    title.syle.lineHeight = (db.titlesize-.5) + "vw";
+    title.style.fontSize = db.titlesize + "vw";
+    title.style.lineHeight = (db.titlesize-.5) + "vw";
 
 
     //load player
