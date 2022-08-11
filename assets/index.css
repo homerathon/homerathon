@@ -73,7 +73,7 @@ body {
 .spacer {
   height: 10vw;
 }
-@media (max-aspect-ratio: 1) {
+@media (max-aspect-ratio: 1/1) {
   .topBar {
     height: 8vw;
   }
