@@ -11,7 +11,7 @@ function generatePage() {
       yrhttp.loccall = link;
       yrhttp.onload = function() {
         var year = JSON.parse(this.responseText);
-        this.loccall.innerText=year.title;
+        this.loccall.innerHTML=year.title;
       }
       yrhttp.open("GET", `assets/${years.extant[year]}.json`);
       yrhttp.send();
