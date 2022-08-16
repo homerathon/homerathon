@@ -8,7 +8,7 @@ function generatePage() {
       var link = document.createElement("a");
       link.href=`./?year=${years.extant[year]}`;
       var yrhttp = new XMLHttpRequest();
-      yrhhtp.loccall = link;
+      yrhttp.loccall = link;
       yrhttp.onload = function() {
         var year = JSON.parse(this.responseText);
         this.loccall.innerText=year.title;
