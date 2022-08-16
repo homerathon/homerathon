@@ -59,6 +59,8 @@ body {
   margin-top: .2vw;
   cursor: pointer;
   float: right;
+  margin-right: 1vw;
+  text-decoration: none;
 }
 .topBar img {
   margin-right: 1vw;

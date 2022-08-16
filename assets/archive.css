@@ -30,6 +30,7 @@ body {
   margin-right: 1vw;
   cursor: pointer;
   float: right;
+  text-decoration: none;
 }
 .topBar img {
   margin-right: 1vw;
