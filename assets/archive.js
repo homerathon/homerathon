@@ -2,7 +2,7 @@ function generatePage() {
   var xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     var years = JSON.parse(this.responseText);
-    var list = document.getElementsByClassName("archlist")
+    var list = document.getElementsByClassName("archlist")[0];
 
     for( year in years.extant ) {
       var link = document.createElement("a");
