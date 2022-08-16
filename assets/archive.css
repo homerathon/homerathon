@@ -46,7 +46,8 @@ body {
   font-weight: bolder;
   background: none;
   border: none;
-  border-top: 1px solid #4f1014;
+  border-bottom: 1px solid #4f1014;
+  text-decoration: none;
 
 }
 @media (max-aspect-ratio: 1/1) {
