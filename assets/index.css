@@ -77,7 +77,7 @@ body {
     height: 8vw;
     width: auto;
   }
-  .topBar button {
+  .topBar a {
     font-size: 5vw;
     margin-top: .7vw;
   }
