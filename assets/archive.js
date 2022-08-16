@@ -20,7 +20,7 @@ function generatePage() {
     for( year in years.outdated ) {
       var link = document.createElement("a");
       link.href=years.outdated[year].file;
-      link.innerText=years.outdated.name;
+      link.innerHTML=years.outdated[year].name;
       list.appendChild(link);
     }
   }
