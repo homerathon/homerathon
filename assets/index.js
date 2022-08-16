@@ -1,6 +1,6 @@
 let paramString = document.URL.split('?')[1];
 let queryString = new URLSearchParams(paramString);
-var year = "2021"
+var year = "2022"
 for (let pair of queryString.entries()) {
   //ok so i'm lazy, sue me
    if(pair[0]==="year" && (

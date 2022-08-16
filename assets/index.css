@@ -49,7 +49,7 @@ body {
   width: 100vw;
   height: 3vw;
 }
-.topBar button{
+.topBar a{
   font-size: 2vw;
   color: #fffaf1;
   font-family: "Roboto", sans-serif;
@@ -57,15 +57,8 @@ body {
   background: none;
   border: none;
   margin-top: .2vw;
-  border-left: 1px solid #fffaf1;
   cursor: pointer;
   float: right;
-}
-.topBar .first {
-  margin-right: 1vw;
-}
-.topBar .last {
-  border-left: none;
 }
 .topBar img {
   margin-right: 1vw;
