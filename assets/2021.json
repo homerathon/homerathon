@@ -1,0 +1,157 @@
+{
+  "values": [
+    {
+      "time": 10,
+      "alt": "Welcome! by Sändra Washington"
+    },
+    {
+      "time": 306,
+      "alt": "Hymn to Dionysus"
+    },
+    {
+      "time": 377,
+      "alt": "Hymn to Demeter"
+    },
+    {
+      "time": 2098,
+      "alt": "Hymn to Apollo"
+    },
+    {
+      "time": 3813,
+      "alt": "Hymn to Hermes"
+    },
+    {
+      "time": 6632,
+      "alt": "Hymn to Aphrodite"
+    },
+    {
+      "time": 7852,
+      "alt": "Hymn to Aphrodite"
+    },
+    {
+      "time": 7931,
+      "alt": "Hymn to Dionysus"
+    },
+    {
+      "time": 8196,
+      "alt": "Hymn to Ares"
+    },
+    {
+      "time": 8345,
+      "alt": "Hymn to Artemis"
+    },
+    {
+      "time": 8383,
+      "alt": "Hymn to Aphrodite"
+    },
+    {
+      "time": 8408,
+      "alt": "Hymn to Athena"
+    },
+    {
+      "time": 8438,
+      "alt": "Hymn to Hera"
+    },
+    {
+      "time": 8456,
+      "alt": "Hymn to Demeter"
+    },
+    {
+      "time": 8475,
+      "alt": "Hymn to the Mother of the Gods"
+    },
+    {
+      "time": 8565,
+      "alt": "Hymn to Heracles"
+    },
+    {
+      "time": 8622,
+      "alt": "Hymn to Asclepius"
+    },
+    {
+      "time": 8712,
+      "alt": "Hymn to the Dioscuri"
+    },
+    {
+      "time": 8787,
+      "alt": "Hymn to Hermes"
+    },
+    {
+      "time": 8826,
+      "alt": "Hymn to Pan"
+    },
+    {
+      "time": 9080,
+      "alt": "Hymn to Hephaestus"
+    },
+    {
+      "time": 9110,
+      "alt": "Hymn to Apollo"
+    },
+    {
+      "time": 9132,
+      "alt": "Hymn to Poseidon"
+    },
+    {
+      "time": 9159,
+      "alt": "Hymn to Zeus"
+    },
+    {
+      "time": 9177,
+      "alt": "Hymn to Hestia"
+    },
+    {
+      "time": 9196,
+      "alt": "Hymn to the Muses & Apollo"
+    },
+    {
+      "time": 9218,
+      "alt": "Hymn to Dionysus"
+    },
+    {
+      "time": 9260,
+      "alt": "Hymn to Artemis"
+    },
+    {
+      "time": 9327,
+      "alt": "Hymn to Athena"
+    },
+    {
+      "time": 9378,
+      "alt": "Hymn to Hestia"
+    },
+    {
+      "time": 9431,
+      "alt": "Hymn to Earth Mother of All Things"
+    },
+    {
+      "time": 9507,
+      "alt": "Humn to Helios"
+    },
+    {
+      "time": 9576,
+      "alt": "Hymn to Selene"
+    },
+    {
+      "time": 9664,
+      "alt": "Hymn to the Dioscuri"
+    },
+    {
+      "time": 9727,
+      "alt": "Hymn to Guest-Friends"
+    },
+    {
+      "time": 9973,
+      "alt": "That's a wrap..."
+    }
+  ],
+  "title": "Welcome to Homerathon 2021: The <em>Homeric Hymns</em>!",
+  "titleSize": 4,
+  "description": [
+    "We're thrilled that you've joined us for this year's Homerathon! To allow for a virtual format, we are doing the <i>Homeric Hymns</i>, rather than a longer epic.",
+    "We would like to thank Sändra Washington from the Lincoln City Council, as well as all of our hymn-readers, who may be found by <a onclick='seek(10099);'>clicking here</a> to jump to the credits. You may also jump to other sections by scrolling through the menu below.",
+    "We'd also like to thank Dr. Hart and Dr. Lippman for their guidance and commentary this year, and for last year's <br><a href='./2020archive'>Homerathon: A Panhellenic Plague Performance</a>",
+    "Without further ado, we present the <i>Homeric Hymns</i>! We look forward to seeing you next year, in person, for another <i>Illiad</i> Homerathon on UNL's Campus!"
+  ],
+  "videoID": "yewiA8EDSRg"
+}

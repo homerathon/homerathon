@@ -14,19 +14,15 @@ img {
   width: 13vw;
 }
 
-.topBar {
-  background-color: #4f1014;
-  width: 100vw;
-  height: 9vh;
-}
 
 iframe {
     position: relative;
-    diaplay: inline-block;
+    display: inline-block;
     min-width: 50vw;
-    max-width: 50vw; 
-    min-height: 50vh;
-    max-height: 50vh; 
+    max-width: 50vw;
+    height: 28.13vw;
+    /*min-height: 50vh;
+    max-height: 50vh;*/
 }
 
 
@@ -39,6 +35,9 @@ iframe {
   grid-template-columns: repeat(3, auto);
   overflow: hidden;
   scroll-behavior: smooth;
+  position: fixed;
+  bottom: 0;
+  height: 10vw;
 }
 
 .wrapper section {
@@ -57,6 +56,7 @@ iframe {
   width: 13vw;
   position: relative;
   transition: 250ms all;
+  cursor: pointer;
 }
 .wrapper section .item:hover {
   transform: scale(1.2);
@@ -73,14 +73,22 @@ iframe {
   left: 20px;
   color: #fff;
 }
-.wrapper section .arrow__btn {
+.wrapper section .item button {
+  background: inherit;
+  border: none;
+  margin: none;
+  padding: none;
+}
+.wrapper section .arrow-btn {
   position: absolute;
   color: #fff;
   text-decoration: none;
-  font-size: 6em;
+  font-size: 6vw;
   width: 3vw;
   text-align: center;
   z-index: 1;
+  border: none;
+  cursor: pointer;
 }
 .wrapper section .left-arrow {
   top: 0;

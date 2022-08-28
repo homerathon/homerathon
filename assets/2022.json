@@ -1,0 +1,41 @@
+{
+  "values":[
+    {
+      "time": 3,
+      "alt": "Introduction by Ronnie Green"
+    },
+    {
+      "time": 135,
+      "alt": "Poseidon, Athena, and Hecuba Scene"
+    },
+    {
+      "time": 923,
+      "alt": "Cassandra Scene"
+    },
+    {
+      "time": 2064,
+      "alt": "Andromache Scene"
+    },
+    {
+      "time": 3024,
+      "alt": "Helen and Menelaus Scene"
+    },
+    {
+      "time": 3996,
+      "alt": "Hecuba and Talthybius Scene"
+    },
+    {
+      "time": 4835,
+      "alt": "Closing Remarks"
+    }
+  ],
+  "title": "Homerathon 2022: Trojan Women",
+  "titlesize": 4,
+  "description": [
+    "Welcome to Homerathon 2022. We are so excited to be continuing the tradition of the Homerathon at UNL. Once again we are coming to you via a digital format, but that does not mean that the Homerathon tradition is any different.",
+		"Homerathon is a project that we are proud of because of our wonderful readers as well as you, our audience. Thank you all for continually coming back and supporting us. We look forward to next year when we are live and in-person and we hope that you can join us.",
+		"Thank you to Chancellor Green for introducing our project this year!",
+		"Here is Homerathon 2022: Euripides' Trojan Women! You can also watch last year's performance <strong><a href='?year=2021' target='_blank' rel='noopener noreferrer'>Homerathon 2021: The Homeric Hymns</a></strong>. Enjoy!"
+  ],
+  "videoID": "0-pvoBnOQaQ"
+}
